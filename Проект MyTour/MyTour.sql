@@ -3,11 +3,10 @@
 drop database if exists mytour;
 create database mytour;
 use mytour;
-- зад1.
+
 create table bul(id tinyint auto_increment primary key, town1 varchar(16) not null, town2 varchar(16) not null, km smallint(4) not null);
 create table rom(id tinyint auto_increment primary key, town1 varchar(16) not null, town2 varchar(16) not null, km smallint(4) not null);
 
-- зад2.
 insert into rom values
 (1,'Vratsa','Sibiu','292'),
 (2,'Sliven','Sibiu','387'),
@@ -44,10 +43,8 @@ insert into bul values
 (17,'Ruse','Montana','225'),
 (18,'Blagoevgrad','Montana','155');
 
--зад3.
 select max(char_length(CONCAT_Ws(" - ", town1,town2))) as max_len from bul;
 
--зад4.
 select max(char_length(CONCAT_Ws(" - ", town1,town2))) as max_len from rom;
 
 -зад5.
