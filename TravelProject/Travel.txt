@@ -1,0 +1,18 @@
+Таблица Countries 
+ID	Name
+(1,	'France'),
+(2,	'Germany'),
+(3,	'Italy'),
+(4,	'Spain'),
+(5,	'Austria');
+
+Таблица Destinations
+ID	Town  	Distance  	Duration  	Price	CountryId
+(1,	'Paris',	2169,	4,	1800.00,	1),
+(2,	'Berlin',	4006,	6,	2100.00,	2),
+(3,	'Rome',	1666,	3,	1500.00,	3),
+(4,	'Madrid',	2966,	7,	1800.00,	4),
+(5,	'Milan',	1408,	4,	1900.00,	3),
+(6,	'Venice',	1152,	3,	1200.00,	3),
+(7,	'Barcelona',	2375,	7,	2800.00,	4);
+
